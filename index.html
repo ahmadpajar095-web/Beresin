@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Beresin - Jasa Mahasiswa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+        .card-glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center min-h-screen p-4">
+
+    <!-- Poster Container -->
+    <div class="relative w-full max-w-md overflow-hidden rounded-[2.5rem] shadow-2xl bg-white border-8 border-white">
+        
+        <!-- Header / Hero Section -->
+        <div class="gradient-bg pt-12 pb-20 px-8 text-center text-white relative">
+            <div class="absolute top-4 right-6 bg-yellow-400 text-blue-900 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-widest shadow-sm">
+                #SolusiKampus
+            </div>
+            
+            <h1 class="text-5xl font-extrabold mb-2 tracking-tighter">BERESIN.</h1>
+            <p class="text-blue-100 font-medium italic opacity-90">"Apa aja, biar kami yang beresin."</p>
+            
+            <!-- Floating Element -->
+            <div class="mt-6 inline-block bg-white/20 backdrop-blur-md rounded-2xl px-4 py-2 border border-white/30">
+                <span class="text-sm">Capek kuliah? Tugas numpuk? <br><b>Kosan pengen pindah?</b></span>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <div class="-mt-10 px-6 pb-8">
+            <div class="card-glass rounded-3xl p-6 shadow-xl border border-gray-100">
+                <h2 class="text-center font-bold text-gray-800 mb-4 text-lg">KAMI SIAP BANTU:</h2>
+                
+                <div class="grid grid-cols-2 gap-4 text-sm">
+                    <!-- Service 1 -->
+                    <div class="flex flex-col items-center p-3 bg-blue-50 rounded-2xl text-center border border-blue-100">
+                        <div class="text-2xl mb-1">📄</div>
+                        <span class="font-bold text-blue-900">Admin</span>
+                        <span class="text-[10px] text-blue-700">ngetik, ppt, tugas</span>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="flex flex-col items-center p-3 bg-yellow-50 rounded-2xl text-center border border-yellow-100">
+                        <div class="text-2xl mb-1">🏃‍♂️</div>
+                        <span class="font-bold text-yellow-900">Runner</span>
+                        <span class="text-[10px] text-yellow-700">Ambil Paket, Antre, Beli Makan</span>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="flex flex-col items-center p-3 bg-green-50 rounded-2xl text-center border border-green-100">
+                        <div class="text-2xl mb-1">📦</div>
+                        <span class="font-bold text-green-900">Pindahan</span>
+                        <span class="text-[10px] text-green-700">Packing & Angkut Kosan</span>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="flex flex-col items-center p-3 bg-purple-50 rounded-2xl text-center border border-purple-100">
+                        <div class="text-2xl mb-1">⚙️</div>
+                        <span class="font-bold text-purple-900">Teknis</span>
+                        <span class="text-[10px] text-purple-700">Install Softw, Desain, Foto, ngoding</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- USP / Why Us -->
+            <div class="mt-6 flex justify-between px-2">
+                <div class="flex items-center gap-2">
+                    <span class="text-blue-600">✅</span>
+                    <span class="text-[11px] font-bold text-gray-600">Harga Mahasiswa</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-blue-600">✅</span>
+                    <span class="text-[11px] font-bold text-gray-600">Aman & Terpercaya</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-blue-600">✅</span>
+                    <span class="text-[11px] font-bold text-gray-600">Sat-Set</span>
+                </div>
+                
+            </div>
+            <div class="mt-6 flex justify-center px-2">
+                <div class="flex items-center gap-2">
+                    <span class="text-blue-600">📌</span>
+                    <span class="text-[11px] font-bold text-gray-600">mulai dari 5k</span>
+                </div>
+            </div>
+            
+
+            <!-- CTA Section -->
+            <div class="mt-8">
+                <a href="https://wa.me/+6281806942697?text=mau%20order%20beresin" target="_blank" class="block w-full gradient-bg text-white text-center font-bold py-4 rounded-2xl shadow-lg hover:opacity-90 transition-all active:scale-95">
+                    KLIK UNTUK CHAT ADMIN
+                </a>
+                <p class="text-center text-gray-400 text-[10px] mt-4 uppercase tracking-widest font-bold">
+                    Dari Mahasiswa • Untuk Mahasiswa
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Abstract Decoration -->
+        <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-yellow-200 rounded-full opacity-50 blur-2xl"></div>
+        <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-blue-200 rounded-full opacity-50 blur-2xl"></div>
+    </div>
+
+</body>
+</html>
